@@ -1,0 +1,15 @@
+﻿  player.cpp
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_GetError，函数 _SDL_main 中引用了该符号
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_MapRGB，函数 _SDL_main 中引用了该符号
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_FillRect，函数 _SDL_main 中引用了该符号
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_CreateWindow，函数 _SDL_main 中引用了该符号
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_GetWindowSurface，函数 _SDL_main 中引用了该符号
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_UpdateWindowSurface，函数 _SDL_main 中引用了该符号
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_DestroyWindow，函数 _SDL_main 中引用了该符号
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_Delay，函数 _SDL_main 中引用了该符号
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_Init，函数 _SDL_main 中引用了该符号
+player.obj : error LNK2019: 无法解析的外部符号 _SDL_Quit，函数 _SDL_main 中引用了该符号
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+D:\SDL2-devel-2.0.12-VC\SDL2-2.0.12\lib\x64\SDL2.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\SDL2-devel-2.0.12-VC\SDL2-2.0.12\lib\x64\SDL2main.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\FinalProject\Debug\FinalProject.exe : fatal error LNK1120: 11 个无法解析的外部命令
